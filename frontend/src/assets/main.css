@@ -1,0 +1,144 @@
+@import './base.css';
+
+/* Variables du thème NASA */
+:root {
+  --color-nasa-blue: #0B3D91;
+  --color-nasa-red: #FC3D21;
+  --color-white: #FFFFFF;
+  --color-gray-light: #E0E0E0;
+  --color-gray-dark: #333333;
+
+  --font-family-base: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  --btn-padding: 0.6rem 1.2rem;
+  --btn-border-radius: 5px;
+}
+
+/* Global Reset & Base */
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--color-white);
+  color: var(--color-gray-dark);
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-nasa-blue);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Liens */
+a,
+.green {
+  text-decoration: none;
+  color: var(--color-nasa-blue);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+    color: var(--color-nasa-red);
+    text-decoration: underline;
+  }
+}
+
+/* Boutons */
+button {
+  padding: var(--btn-padding);
+  border-radius: var(--btn-border-radius);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  color: var(--color-white);
+  background-color: var(--color-nasa-blue);
+}
+
+button:hover {
+  background-color: var(--color-nasa-red);
+}
+
+/* Boutons secondaires */
+button.secondary {
+  background-color: var(--color-gray-light);
+  color: var(--color-gray-dark);
+}
+
+button.secondary:hover {
+  background-color: var(--color-nasa-blue);
+  color: var(--color-white);
+}
+
+/* Tableaux */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+thead {
+  background-color: var(--color-nasa-blue);
+  color: var(--color-white);
+}
+
+thead th {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 2px solid var(--color-nasa-red);
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--color-gray-light);
+}
+
+tbody tr:hover {
+  background-color: var(--color-gray-light);
+}
+
+tbody td {
+  padding: 0.6rem 0.8rem;
+}
+
+/* Inputs */
+input[type="date"],
+input[type="text"],
+select {
+  padding: 0.5rem;
+  border: 1px solid var(--color-gray-light);
+  border-radius: var(--btn-border-radius);
+  font-size: 1rem;
+  font-family: var(--font-family-base);
+  transition: border-color 0.3s ease;
+}
+
+input[type="date"]:focus,
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: var(--color-nasa-blue);
+  box-shadow: 0 0 5px var(--color-nasa-blue);
+}
+
+/* Conteneurs / Cards */
+.card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-light);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(11, 61, 145, 0.1);
+  margin-bottom: 1.5rem;
+}
