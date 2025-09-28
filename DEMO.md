@@ -16,4 +16,4 @@
 ![CAD Demo CSV](assets/demo/ETL_NASA_DEMO_CADDashboard_CSV_Download-ezgif.com-video-to-gif-converter.gif)
 
 ## API Swagger Backend
-![API Swagger](assets/demo/ETL_NASA_API_SWAGGER_video_demo-ezgif.com-video-to-gif-converter.gif
+![API Swagger](assets/demo/ETL_NASA_API_SWAGGER_video_demo-ezgif.com-video-to-gif-converter.gif)
