@@ -1,7 +1,7 @@
 # Démo du projet
 
 ## Home Dashboard
-![Fireballs Demo](src/assets/demo/ETL_NASA_DEMO_HOME-ezgif.com-video-to-gif-converter)
+![Fireballs Demo](/assets/demo/ETL_NASA_DEMO_HOME-ezgif.com-video-to-gif-converter)
 
 ## Fireballs Dashboard
 ![Fireballs Demo](src/assets/demo/demo1.gif)
